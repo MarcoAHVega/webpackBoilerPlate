@@ -1,5 +1,23 @@
+/* css reset */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+/* root font size - (100% = 16px) - (62.5% = 10px)*/
+html {
+  font-size: 62.5%;
+}
+
+/* project-wide font definitions */
 body {
-  h1 {
-    color: red;
-  }
+  font-family: $montserrat;
+  font-weight: $fw-regular;
+  line-height: 1.7;
+  color: $text-dark;
+
+  box-sizing: border-box;
 }

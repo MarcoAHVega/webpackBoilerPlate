@@ -1,7 +1,7 @@
-class TestJsFeature {
-  constructor() {
-    alert('Testing from MobileMenu.')
-  }
-}
+// class TestJsFeature {
+//   constructor() {
+//     alert('Testing from MobileMenu.')
+//   }
+// }
 
-export default TestJsFeature
+// export default TestJsFeature

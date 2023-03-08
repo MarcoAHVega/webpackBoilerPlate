@@ -1,14 +1,14 @@
 import '../styles/styles.scss'
-import TestJsFeature from './modules/TestJsFeature'
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import TestReactComponent from './modules/TestReactComponent.jsx'
+// import TestJsFeature from './modules/TestJsFeature'
+// import React from 'react'
+// import ReactDOM from 'react-dom/client'
+// import TestReactComponent from './modules/TestReactComponent.jsx'
 
-let testJsFeature = new TestJsFeature()
+// let testJsFeature = new TestJsFeature()
 
-const root = ReactDOM.createRoot(document.getElementById('root'))
-root.render(<TestReactComponent />)
+// const root = ReactDOM.createRoot(document.getElementById('root'))
+// root.render(<TestReactComponent />)
 
-if (module.hot) {
-  module.hot.accept()
-}
+// if (module.hot) {
+//   module.hot.accept()
+// }
