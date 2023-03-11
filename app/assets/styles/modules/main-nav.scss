@@ -1,0 +1,60 @@
+// https://youtu.be/PwWHL3RyQgk
+
+.main-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 3rem 6rem;
+  font-size: $fs-base;
+  background-color: $gray;
+
+  &__logo-wrapper {
+    margin-right: auto;
+  }
+  &__logo-link {
+  }
+
+  &__logo {
+    height: 6rem;
+    cursor: pointer;
+  }
+
+  &__link-wrapper {
+    list-style: none;
+  }
+
+  &__link-item {
+    display: inline-block;
+  }
+
+  &__link {
+    padding: 0 1rem;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+  }
+  &__link:hover {
+    color: $primary-light;
+  }
+
+  &__btn-wrapper {
+  }
+
+  &__btn {
+    padding: 1.5rem 3rem;
+    margin: 1rem;
+    text-decoration: none;
+    background-color: $gray;
+    border: 2px solid $gray-dark;
+  }
+  &__menu-box {
+  }
+
+  &__menu-wrapper {
+  }
+
+  &__menu-icon {
+    height: 6rem;
+    margin-top: 0.7rem;
+    margin-left: 1rem;
+  }
+}
